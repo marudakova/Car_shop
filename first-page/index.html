@@ -8,107 +8,116 @@
     <title>Home</title>
 
     <link rel="shortcut icon" href="imges/icons8-home-64.png">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
 </head>
 
 <body>
-    <header>
-        <div class="bg_grey">
-            <div class="header">
-                <nav>
-                    <ul class="nav"> <!--
-                    --><li class="nav-card active">главная</li><!--
-                    --><li class="nav-card">об авторе</li><!--
-                    --><li class="nav-card">работы</li><!--
-                    --><li class="nav-card">процесс</li><!--
-                    --><li class="nav-card">контакты</li><!--
-                    --></ul>
-                </nav>
-                <section class="main">
-                    <h1 class="title">Дизайн и верстка</h1>
-                    <p class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                        стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                    <div class="bottom">
-                        написать мне
+    <div class="bg_grey">
+        <header class="section">
+            <nav>
+                <ul class="list"><!--
+                --><li class="list-card"><a class="active" href="#">главная</a></li><!--
+                --><li class="list-card"><a href="#">об авторе</a></li><!--
+                --><li class="list-card"><a href="#">работы</a></li><!--
+                --><li class="list-card"><a href="#">процесс</a></li><!--
+                --><li class="list-card"><a href="#">контакты</a></li><!--
+            --></ul>
+            </nav>
+            <section class="main">
+                <h1 class="title">Дизайн и верстка</h1>
+                <p class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                    является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </p>
+                <div class="bottom">
+                    <a href="#">написать мне</a>
+                </div>
+            </section>
+        </header>
+    </div>
+    
+    <div class="section about">
+        <h2>Обо мне</h2>
+        <p class="text-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi mollitia ex
+            pariatur
+            necessitatibus laborum dolor officiis nihil qui illum. Officiis ex totam harum velit exercitationem
+            placeat fugiat error architecto.</p>
+    </div>
+    
+    <div class="blue-bg">
+        <div class="section section-list">
+            <ul class="list"><!--
+                --><li class="list-card">
+                    <img class="list-img" src="./imges/project.png" alt="icon">
+                    <div class="list-text">
+                        <h3>40+</h3>
+                        <br>
+                        <p>проектов</p>
                     </div>
-                </section>
-            </div>
+                </li><!--
+                --><li class="list-card">
+                    <img class="list-img" src="./imges/project.png" alt="icon">
+                    <div class="list-text">
+                        <h3>40+</h3>
+                        <br>
+                        <p>проектов</p>
+                    </div>
+                </li><!--
+                --><li class="list-card">
+                    <img class="list-img" src="./imges/project.png" alt="icon">
+                    <div class="list-text">
+                        <h3>40+</h3>
+                        <br>
+                        <p>проектов</p>
+                    </div>
+                </li><!--
+                --><li class="list-card">
+                    <img class="list-img" src="./imges/project.png" alt="icon">
+                    <div class="list-text">
+                        <h3>40+</h3>
+                        <br>
+                        <p>проектов</p>
+                    </div>
+                </li><!--
+                --><li class="list-card">
+                    <img class="list-img" src="./imges/project.png" alt="icon">
+                    <div class="list-text">
+                        <h3>40+</h3>
+                        <br>
+                        <p>проектов</p>
+                    </div>
+                </li><!--
+                --><li class="list-card">
+                    <img class="list-img" src="./imges/project.png" alt="icon">
+                    <div class="list-text">
+                        <h3>40+</h3>
+                        <br>
+                        <p>проектов</p>
+                    </div>
+                </li><!--
+            --></ul>
         </div>
-    </header>
-
-        <div class="about">
-            <h2 class="title_about">Обо мне</h2>
-            <p class="text_about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi mollitia ex pariatur
-                necessitatibus laborum dolor officiis nihil qui illum. Officiis ex totam harum velit exercitationem
-                placeat fugiat error architecto.</p>
+    </div>
+    
+    <div class="bg_grey">
+        <div class="section about">
+            <h2>Как я работаю</h2>
+            <p class="text-about">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                является
+                стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
-
-        <div class="project-bg">
-            <div class="project">
-                <ul class="project-card">
-                    <li class="project-img"><img src="./imges/project.png" alt="icon"></li>
-                    <li class="project-text">
-                        <h3 class="project-title">40+</h3>
-                        <p>проектов</p>
-                    </li>
-                </ul>
-                <ul class="project-card">
-                    <li class="project-img"><img src="./imges/project.png" alt="icon"></li>
-                    <li class="project-text">
-                        <h3 class="project-title">40+</h3>
-                        <p>проектов</p>
-                    </li>
-                </ul>
-                <ul class="project-card">
-                    <li class="project-img"><img src="./imges/project.png" alt="icon"></li>
-                    <li class="project-text">
-                        <h3 class="project-title">40+</h3>
-                        <p>проектов</p>
-                    </li>
-                </ul>
-                <ul class="project-card">
-                    <li class="project-img"><img src="./imges/project.png" alt="icon"></li>
-                    <li class="project-text">
-                        <h3 class="project-title">40+</h3>
-                        <p>проектов</p>
-                    </li>
-                </ul>
-                <ul class="project-card">
-                    <li class="project-img"><img src="./imges/project.png" alt="icon"></li>
-                    <li class="project-text">
-                        <h3 class="project-title">40+</h3>
-                        <p>проектов</p>
-                    </li>
-                </ul>
-                <ul class="project-card">
-                    <li class="project-img"><img src="./imges/project.png" alt="icon"></li>
-                    <li class="project-text">
-                        <h3 class="project-title">40+</h3>
-                        <p>проектов</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="bg_grey">
-            <div class="about">
-                <h2 class="title_about">Как я работаю</h2>
-                <p class="text_about">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                    стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <footer class="footer project-bg">
-            <h3 class="project-title">Иванов Иван</h3>
-            <p class="project-text footer-txt">(с) 2018. Все права защищены.</p>
+    </div>
+    
+    <div class="blue-bg">
+        <footer class="section">
+            <h3 class="footer-txt">Иванов Иван</h3>
+            <p class="footer-txt">(с) 2018. Все права защищены.</p>
         </footer>
-       
-      
-   
+    </div>
 </body>
-
 </html>
