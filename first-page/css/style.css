@@ -26,8 +26,9 @@ li > a.active {
 }
 
 .list-card {
-    display: inline;
+    display: inline-block;
     margin-right: 38px;
+    vertical-align: top;
 }
 
 .list-card a {
@@ -72,17 +73,13 @@ p.text {
     margin-top: 65px;
     max-width: 225px;
     padding: 20px 40px;
+    font-family: 'Roboto', sans-serif;
     background-color: rgba(54, 84, 122, 1);
     text-align: center;
-}
-
-div.bottom > a {
-    font-family: 'Roboto';
     text-transform: uppercase;
     font-size: 16px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 1);
     text-decoration: none;
+    color: rgba(255, 255, 255, 1);
 }
 
 .about {
