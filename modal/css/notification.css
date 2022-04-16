@@ -4,7 +4,6 @@
     border-radius: 4px;
     font-weight: 400;
     font-size: 14px;
-
 }
 
 .notification::before {
@@ -33,7 +32,7 @@
 }
 
 .check::before {
-    content: url(../icons/check.png);    
+    content: url(../icons/check.png);
 }
 
 .warning::before {
