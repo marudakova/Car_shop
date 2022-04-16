@@ -1,0 +1,50 @@
+.notification {
+    padding: 10px;
+    margin-top: 16px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.notification::before {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.into {
+    background-color: rgba(40, 73, 157, 0.09);
+}
+
+.check {
+    background-color: rgba(233, 248, 235, 1);
+}
+
+.warning {
+    background-color: rgba(255, 248, 224, 1);
+}
+
+.alert {
+    background-color: rgba(253, 234, 228, 1);
+}
+
+.into::before {
+    content: url(../icons/Union.png);
+}
+
+.check::before {
+    content: url(../icons/check.png);    
+}
+
+.warning::before {
+    content: url(../icons/warning.png);
+}
+
+.alert::before {
+    content: url(../icons/alert.png);
+}
+
+.notification p {
+    display: inline-block;
+    margin: 0;
+}
