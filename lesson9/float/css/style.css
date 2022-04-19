@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.float {
+    border: 1px solid black;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+}
+
+.square-big {
+    width: 200px;
+    height: 200px;
+}
+
+.first {
+    float: left;
+}
+
+.second {
+    float: right;
+}
+
+.align {
+    transform: translateY(45%);
+}
+
+.block1 {
+    display: block;
+    margin: 0 auto;
+    width: 340px;
+}
+
+.block2 {
+    width: 340px;
+}
+

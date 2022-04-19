@@ -1,0 +1,42 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+div {
+    display: inline-block;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+}
+
+.square-big {
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+}
+
