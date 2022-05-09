@@ -73,17 +73,17 @@ header {
     text-align: center;
 }
 
-.white {
+.btn-white {
     background-color: white;
 }
 
-.orange {
+.btn-orange {
     background-color: #FF6336;
     color: white;
     border-color: #FF6336;
 }
 
-.black {
+.btn-black {
     background-color: #000000;
     color: white;
 }
@@ -152,7 +152,7 @@ header {
 .companies-list {
     display: flex;
     gap: 100px;
-    vertical-align: baseline;
+    align-items: center;
 }
 
 /*Блок "изображение-текст"*/
