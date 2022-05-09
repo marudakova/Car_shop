@@ -1,0 +1,75 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-window {
+    position: relative;
+    width: 340px;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .4); 
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(62, 62, 62, 1); 
+    border-radius: 4px; 
+}
+
+
+.title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h1.title {
+    width: 280px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btn-close {
+    border: none;
+    background: none;
+}
+
+.txt {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.btn-area {
+    margin-top: 30px;
+    vertical-align: top;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-blue {
+    background-color: rgba(62, 86, 170, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-right: 10px;
+}
+
+.btn-grey {
+    background-color: rgba(0, 16, 61, 0.1);
+    color: rgba(44, 45, 46, 1);
+    margin-right: 74px;
+}
+
+.active {
+    color: rgba(62, 86, 170, 1);
+}
